@@ -1,0 +1,217 @@
+html, body {
+    background: #121212; /* Nền tối */
+    color: rgba(255, 255, 255, .87); /* Văn bản sáng */
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    min-height: 101vh;
+}
+
+a {
+    color: #bb86fc; /* Liên kết sáng */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f8752b; /* Màu sắc khi hover */
+}
+
+input {
+    background-color: #333; /* Nền input tối */
+    color: #fff; /* Màu chữ sáng */
+    border: 1px solid #555; /* Viền input tối */
+}
+
+select {
+    background-color: #333; /* Nền select tối */
+    color: #ccc; /* Màu chữ sáng */
+    border-radius: 4px;
+    border: 1px solid #555;
+    margin: 5px 0;
+}
+
+button {
+    padding: 5px;
+    background-color: #6200ea; /* Màu nền button */
+    color: #fff; /* Màu chữ sáng */
+    border: none;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #3700b3; /* Màu nền button khi hover */
+}
+
+body {
+    background: #121212; /* Màu nền tối */
+    color: rgba(255, 255, 255, .87); /* Màu chữ sáng */
+}
+
+.container {
+    width: 1000px;
+    background: #2c2c2c; /* Nền sáng hơn cho container */
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.header {
+    position: relative;
+    padding: 5px 0;
+    border-bottom: 1px solid #444;
+}
+
+.listbox li a:hover {
+    color: #f8752b;
+    opacity: 1;
+}
+
+.listbox li {
+    display: inline-block;
+    width: 20%;
+    margin-bottom: 16px;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.listbox {
+    padding: 16px 8px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.listbox li a {
+    display: block;
+    padding: 0 8px;
+    color: rgba(255, 255, 255, .87); /* Màu chữ sáng cho liên kết */
+}
+
+.listbox .thumb {
+    height: auto;
+    display: block;
+    min-height: 100px;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.listbox li a img {
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+    border-radius: 3px;
+}
+
+.gameview .container {
+    background: #1f1f1f; /* Nền tối cho container game */
+    border-radius: 3px;
+    border-bottom: solid 1px #444;
+    overflow: hidden;
+}
+
+.gameview h1.heading {
+    border: 0;
+    max-width: 968px;
+    margin: 8px auto 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-indent: 0;
+    text-overflow: ellipsis;
+    line-height: 1em;
+    padding: 8px 0;
+    text-align: left;
+    font-size: 24px;
+    border-radius: 0;
+    width: 100%;
+    font-weight: normal;
+    color: #fff; /* Màu chữ sáng cho heading */
+    background: transparent;
+}
+
+.gameview .gamecontainer {
+    padding: 2px 0 16px 0;
+    position: relative;
+    border: 0;
+    overflow: hidden;
+}
+
+.gameview .playbox {
+    margin: auto;
+    clear: both;
+    z-index: 69;
+    overflow: hidden;
+    box-shadow: 0 0 1px #666;
+    position: relative;
+}
+
+.gameview .gameobj {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.box.tag-games .heading {
+    background: #3700b3;
+    color: #fff;
+    font-size: inherit;
+    font-weight: bold;
+    width: 48%;
+    padding: 4px 0 4px 16px;
+}
+
+.box.tag-games .inside {
+    border: 1px solid #3700b3;
+    border-top: double #3700b3;
+    border-radius: 0 0 5px 5px;
+}
+
+.s-icon {
+    position: absolute;
+    left: 12px;
+    top: 6px;
+    height: 44px;
+    background: #444;
+    display: block;
+    max-width: 160px;
+    font-size: 8px;
+    line-height: 13px;
+    border: 1px solid #555;
+    border-radius: 3px;
+}
+
+.number-head {
+    color: #f48120;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: PathwayGothicOne;
+    line-height: normal;
+    height: 30px;
+    display: block;
+    border-radius: 3px 3px 0 0;
+    width: 44px;
+    line-height: 30px;
+    text-align: center;
+    background: #333;
+    border-bottom: 1px solid #555;
+}
+
+.gameview h1.heading.item-head {
+    padding-left: 76px;
+    margin-bottom: 8px;
+}
+
+.gameview .container.box-head {
+    border-bottom: 0;
+}
+
+.head-note {
+    display: block;
+    font-size: 9px;
+    padding: 0;
+    line-height: 15px;
+    text-align: center;
+    color: #aaa;
+}
