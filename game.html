@@ -28,10 +28,17 @@
                         <div id="gameobj" class="gameobj">
                             <!-- https://st.gamevui.vn/images/flash/games/gamephieuluu/yllegend-hoc-vo-2.3.swf?gId=2551 -->
                             <object>
-                                <embed
-                                    src="files/yllegend-hoc-vo-2.3.swf"
-                                    width="100%" height="100%">
+                                <embed src="files/yllegend-hoc-vo-2.3.swf" width="100%" height="100%">
                             </object>
+                            <script type="text/javascript">
+                                window.RufflePlayer = window.RufflePlayer || {};
+                                window.RufflePlayer.config = {
+                                    contextMenu: "off",
+                                    graphics: {
+                                        renderer: "canvas",
+                                    },
+                                }
+                            </script>
                         </div>
                     </div>
                 </div>
@@ -119,4 +126,5 @@
         </div>
     </div>
 </body>
+
 </html>
